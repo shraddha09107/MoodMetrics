@@ -1,0 +1,18 @@
+# MoodMetrics v2 — Real-Time Edition
+# Uses a pre-trained Hugging Face model instead of DeepFace/TensorFlow.
+# This is a lighter, more reliable install than the TF stack — no fragile
+# numpy/keras version pinning needed.
+#
+# Tested on Python 3.10 and 3.11.
+
+opencv-python==4.9.0.80
+torch==2.3.1
+torchvision==0.18.1
+transformers==4.42.4
+Pillow==10.3.0
+numpy==1.26.4
+pandas==2.2.2
+plotly==5.22.0
+flask==3.0.3
+google-genai==1.15.0
+python-dotenv==1.0.1

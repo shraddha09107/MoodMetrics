@@ -1,0 +1,25 @@
+# Environment & secrets
+.env
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Model cache & data
+.cache/
+*.pt
+*.pth
+*.h5
+*.safetensors
+data/
+src/static/uploads/
+logs/
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
